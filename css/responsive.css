@@ -1,0 +1,702 @@
+@media only screen and (min-width: 0px) and (max-width: 480px){
+    html,
+    body{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 1.3em;
+        letter-spacing: 0;
+    }
+
+    h2{
+        font-size: 1.3em;
+    }
+
+    .btn,
+    .btn-hollow,
+    .btn-block p,
+    input[type = submit] {
+        width: 90%;
+        margin: 5%;
+    }
+
+    .btn,
+    .btn1,
+    .btn-hollow,
+    input[type = submit]{
+        padding: 3% 0;
+    }
+
+    .logo-box{
+        margin-left: 10%;
+    }
+
+    .logo-box img{
+        width: 100%;
+        height: auto;
+    }
+
+    .main-nav{
+        display: grid;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .phone-menu{
+        font-size: 1.2em;
+        margin-bottom: 0.26em;
+    }
+
+    .btn-hollow{
+        font-size: 1em;
+        margin-left: 0;
+    }
+    
+    .container-two{
+        grid-row: 1;
+        grid-column: 1/ span 3;
+        background-size: 26%;
+        text-align: center;
+    }
+
+    .hero-text-box{
+        margin-left: 0;
+        padding: 0 6%;
+    }
+
+    .btn1{
+        margin-left: 20%;
+        margin-bottom: 10%;
+        width: 80%;
+    }
+
+    .hero{
+        grid-row: 2;
+        grid-column: 1/ span 3;
+    }
+
+    .hero img{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .flower{
+        display:none;
+    }
+
+    .simptomatic{
+        display: none;
+    }
+
+    .container-benefits {
+        grid-template-columns: 1fr;
+    }
+
+    .benefits h5{
+        display: none;
+    }
+
+    .box{
+        width: 90%;
+        border-radius: 15px;
+        margin: 6%;
+        padding: 50% 6% 2% 6%;
+    }
+
+    .review-text{
+        font-size: 1em;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .container-treatment{
+        grid-template-columns: 1fr;
+    }
+
+    .container-treatment p{
+        text-align: justify;
+    }
+
+    .box-treatment{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .arrow-treatment{
+        -webkit-transform: rotate(90deg); /* Safari 3-8 */
+        transform: rotate(90deg);
+    }
+
+    .container-contact h4{
+        width: 90%;
+        margin-left: 5%;
+        padding: 0;
+    }
+
+    .push-top,
+    .container-contact{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .doctors-box ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(18, auto);
+        grid-gap: .6em; 
+    }
+  
+    .doctors h4{
+        display: none;
+    }
+
+    .contact-before-bullets{
+        display: none;
+    }
+
+    .container{
+        grid-template-columns: 1fr; 
+    }
+
+    #hidden-if-big{
+        display: block;
+    }
+
+    #hidden-if-small{
+        display: none;
+    }
+    
+    .therme-text{
+        text-align: justify;
+        justify-self: left;
+    }
+   
+    .therme-text p{
+        font-size: .98em;
+    }
+
+    .therme-text h5,
+    .therme-text .fas{
+        text-align: center;
+    }
+
+    .therme h2{
+        padding: 0 8%;
+    }
+
+    .therme-benefits{
+        grid-template-columns: 6% 94%;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .therme-benefits .btn-block{
+        display: none;
+    }
+
+    .feedback-container{
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin: 0;
+    }
+
+    .container-footer{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 6%;
+        width: 100%;
+        height: auto ;
+        text-align: center;
+        margin: 6% 0 16%;
+    }
+
+    .logo-footer img{
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .icons-footer{
+        margin-left: 20%;
+    }  
+
+    .popup{
+        width: 100%;
+        left: 0;
+    }
+
+    .container-form h2{
+        font-size: 1.3em;
+    }
+
+    .container-form h4{
+        font-size: 1em;
+    }
+
+    input,
+    textarea{
+        width: 26em;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    
+    html,
+    body{
+        font-size: 15px;
+    }
+
+    h1{
+        letter-spacing: 0;
+    }
+
+    .logo-box{
+        margin-left: 10%;
+    }
+
+    .logo-box img{
+        width: 80%;
+        height: auto;
+    }
+
+    .main-nav{
+        display: grid;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .phone-menu{
+        font-size: 1.2em;
+        margin-bottom: 0.26em;
+    }
+
+    .btn-hollow{
+        font-size: 1em;
+        margin-left: 0;
+    }
+    
+    .container-two{
+        grid-row: 1;
+        grid-column: 1/ span 3;
+        background-size: 26%;
+        text-align: center;
+    }
+
+    .hero-text-box{
+        margin-left: 0;
+        padding: 0 6%;
+    }
+
+    .btn1{
+        margin-left: 20%;
+        margin-bottom: 10%;
+    }
+
+    .hero{
+        grid-row: 2;
+        grid-column: 1/ span 3;
+    }
+
+    .hero img{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .flower{
+        display:none;
+    }
+
+    .simptomatic{
+        display: none;
+    }
+
+    .container-benefits {
+        grid-template-columns: 1fr;
+    }
+
+    .benefits h5{
+        display: none;
+    }
+
+    .box{
+        width: 90%;
+        border-radius: 15px;
+        margin: 6%;
+        padding: 45% 20% 2% 20%;
+    }
+
+    .container-treatment{
+        grid-template-columns: 1fr;
+    }
+
+    .box-treatment{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .arrow-treatment{
+        -webkit-transform: rotate(90deg); /* Safari 3-8 */
+        transform: rotate(90deg);
+    }
+
+    .doctors-box ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(18, auto);
+        grid-gap: .6em; 
+    }
+  
+    .doctors h4{
+        display: none;
+    }
+
+    .btn,
+    .btn1,
+    .btn-hollow,
+    input[type = submit]{
+        padding: 3% 0;
+    }
+
+    .contact-before-bullets{
+        display: none;
+    }
+
+    .container{
+        grid-template-columns: 1fr; 
+    }
+
+    .review-text{
+        font-size: 1.2em;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    #hidden-if-big{
+        display: block;
+    }
+
+    #hidden-if-small{
+        display: none;
+    }
+    
+    .therme-text{
+        text-align: justify;
+        justify-self: left;
+    }
+   
+    .therme-text p{
+        font-size: .98em;
+    }
+
+    .therme-text h5,
+    .therme-text .fas{
+        text-align: center;
+    }
+
+    .therme h2{
+        padding: 0 8%;
+    }
+
+    .therme-benefits{
+        grid-template-columns: 6% 94%;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .therme-benefits .btn-block{
+        display: none;
+    }
+
+    .feedback-container{
+        grid-template-columns: 1fr;
+        margin-left: 13%;
+    }
+
+    .container-footer{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 6%;
+        width: 100%;
+        height: auto ;
+        text-align: center;
+        margin: 6% 0 16%;
+    }
+
+    .logo-footer img{
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .icons-footer{
+        margin-left: 20%;
+    }
+
+    .popup{
+        width: 100%;
+        left: 0;
+    }
+
+    .container-form h2{
+        font-size: 1.3em;
+    }
+
+    .container-form h4{
+        font-size: 1em;
+    }
+
+    input,
+    textarea{
+        width: 26em;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    html,
+    body{
+        font-size: 14px;
+    }
+
+    .hero{
+        margin-top: 6%;;
+    }    
+
+    .btn,
+    .btn1,
+    .btn-hollow,
+    input[type = submit]{
+        padding: 3% 0;
+    }
+
+    .btn1{
+        width: 80%;
+    }
+
+   .row{
+    height: 8%;
+    }
+
+    .logo-box img{
+        width: 160px;
+        height: auto;
+    }
+
+    h1{
+        font-size: 1.2em;
+        letter-spacing: .01em;
+    }
+
+    .hero-text-box span{
+        font-size: 1.1em;
+    }
+
+    .hexagon{
+        background-size: 100%;
+    }
+
+    .hexagon p{
+        margin-top: 50%;
+        font-size: .7em;
+    }
+
+    .simptomatic-headings{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .container-benefits {
+        grid-template-columns: 1fr;
+    }
+    
+    .box{
+        width: 90%;
+        border-radius: 15px;
+        margin: 6%;
+        padding: 50% 20% 2% 20%;
+    }
+
+    .box-one{
+        background-position-y: 0;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.6))), url(img/benefit_01.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(img/benefit_01.png);
+    }
+
+    .review-text{
+        font-size: 1.6em;
+    }
+
+    .container-treatment{
+        grid-template-columns: 1fr;
+    }
+
+    .box-treatment{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .arrow-treatment{
+        -webkit-transform: rotate(90deg); /* Safari 3-8 */
+        transform: rotate(90deg);
+    }
+
+    .doctors-box ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-gap: 2%; 
+    }
+
+    .container{
+        grid-template-columns: 1fr; 
+    }
+
+    .review-text{
+        text-align: center;
+        justify-self: center;
+    }
+
+    #hidden-if-big{
+        display: block;
+    }
+
+    #hidden-if-small{
+        display: none;
+    }
+    
+    .therme-text{
+        text-align: justify;
+    }
+   
+    .therme-text h5,
+    .therme-text .fas{
+        text-align: center;
+    }
+
+    .therme-benefits{
+        grid-template-columns: 6% 44% 6% 44%;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .therme-benefits .btn-block{
+        display: none;
+    }
+
+    .feedback-container{
+        grid-template-columns: 1fr;
+        margin-left: 13%;
+    }
+
+    .container-footer{
+        width: 90%;
+    }
+
+    .logo-footer img{
+        width: 100%;
+    }
+
+    .popup{
+        width: 80%;
+        left: 10%;
+    }
+
+    .container-form h2{
+        font-size: 1.3em;
+    }
+
+    .container-form h4{
+        font-size: 1em;
+    }
+
+    input,
+    textarea{
+        width: 26em;
+    }
+    
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1299px){
+   html,
+   body{
+       font-size: 14px;
+   }
+
+   .row{
+       height: 8%;
+   }
+
+   .logo-box img{
+       width: 180px;
+       height: auto;
+   }
+
+   .hexagon{
+        background-size: 100%;
+   }
+
+   .hexagon p{
+    margin-top: 36%;
+    font-size: .86em;
+   }
+
+   .box-treatment{
+       border-radius: 3%;
+       -webkit-border-radius: 3%;
+       -moz-border-radius: 3%;
+       -ms-border-radius: 3%;
+       -o-border-radius: 3%;
+    }
+
+    .doctors-box ul{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .doctors-box p{
+        font-size: .9em;
+    }
+
+    .therme .fas{
+        font-size: 2em;
+    }
+
+    .foto-box{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .second-foto,
+    .third-foto{
+      display: none;
+    }
+    
+    .first-foto,
+    .fourth-foto{
+        grid-column: 1 / span 3;
+    }
+
+    .hexagon p{
+        font-size: 1em;
+    }
+
+    .feedback-box{
+        width: 100%;
+    }
+
+    .popup{
+        width: 80%;
+        left: 10%;
+    }
+
+    .container-form h2{
+        font-size: 1.3em;
+    }
+
+    .container-form h4{
+        font-size: 1em;
+    }
+
+    input,
+    textarea{
+        width: 26em;
+    }
+
+}
